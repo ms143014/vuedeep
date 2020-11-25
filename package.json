@@ -1,0 +1,22 @@
+{
+  "name": "vuedeep",
+  "version": "1.0.0",
+  "description": "vue源码分析",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ms143014/vuedeep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ms143014/vuedeep/issues"
+  },
+  "homepage": "https://github.com/ms143014/vuedeep#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
