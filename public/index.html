@@ -14,12 +14,23 @@
             </ul>
             <h3>{{url}}</h3>
             <div v-text="msg"></div>
-            <div v-html="htmlStr"></div>
+            <div v-html="person.fav"></div>
             <input type="text" v-model="msg"/>
         </div>
         <script type="text/javascript">
         window.v = new Vue({
-            $el: '#app'
+            el: '#app',
+            data: {
+                url: 'https://www.baidu.com',
+                msg: 'vue源码分析',
+                htmlStr: '<section style="color: red;">Vue</section>',
+                person: {
+                    name: 'Pom',
+                    age: 35,
+                    fav: 'study'
+                }
+            }
+
         });
         </script>
     </body>
